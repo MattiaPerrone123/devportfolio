@@ -11,7 +11,7 @@
 */
 
 (function($) {
-
+    //Added dummy comment
     // Show current year
     $("#current-year").text(new Date().getFullYear());
 
