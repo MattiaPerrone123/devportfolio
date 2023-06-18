@@ -51,6 +51,10 @@
             <li>
                 <a href="#contact">Contact</a>
             </li>
+            <li>
+                <a href="#projects">Machine Learning Projects</a>
+            </li>
+
         </ul>
     </header>
     <!-- End header -->
@@ -91,7 +95,8 @@
                         I am a Research Assistant at Arcadia University in Glenside, PA.
                         At Arcadia University, I am working on a project aiming at estimating
                         Hip Joint Moments starting from Hip Joint Angles and subjects demographics
-                        using Long Short-Term Memory models. <br>
+                        using Long Short-Term Memory models, Variational Autoencoders and Generative
+                        Adversarial Networks. <br>
                         I took part in a Double Degree program
                         between the University of Illinois at Chicago and Politecnico di Milano,
                         from which I obtained my Master of Science in Biomedical Engineering
@@ -427,6 +432,124 @@
     </div>
 
     <!-- End #skills -->
+
+
+
+          <div id="projects" class="background-alt">
+              <h2 class="heading">Machine Learning Projects</h2>
+              <div class="container">
+                  <div class="row">
+
+
+
+
+                      <div class="project shadow-large">
+                          <div class="project-image">
+
+                            <img src="images/VBM_2_300x300.jpeg" />
+                          </div>
+
+
+                          <div class="project-info">
+                              <h3>View Recognition of Mouse Brains</h3>
+
+                            <p>
+                                Designed a CNN for view recognition of mouse brains in Keras using state-of-the-art architecture (EfficientNet).
+                                The aim of the model consists in classifying mouse brain images coming from different sources (therefore dealing with
+                                imbalanced dataset issues) into horizontal view, coronal view and sagittal view.
+                            <p>
+
+                            <p>
+                                Leveraged transfer learning techniques by fine-tuning the pre-trained EfficientNet model, reaching
+                                an F1-score of 0.98 on the test set.
+                            <p>
+                            <p>
+                              Utilized Class Activation Maps to gain insights into the model’s decision-making classification process and identify
+                              areas of improvement.
+                             </p>
+                              <a href="https://github.com/MattiaPerrone123/View_Recognition_of_Mouse_Brains.git">View Code</a>
+                                  &nbsp&nbsp&nbsp&nbsp&nbsp
+                              <a href="https://drive.google.com/file/d/1kVMENu0BmmPiBi1hm-WVpJuLEzcjyCob/view?usp=sharing">View Slides</a>
+                          </div>
+
+                      </div>
+
+
+
+
+
+
+
+
+
+
+                      <div class="project shadow-large">
+                          <div class="project-image">
+                            <img src="images/PP4_1_300x300.jpeg" />
+                          </div>
+                          <!-- End .project-image -->
+
+                          <div class="project-info">
+                              <h3>Protein Family Prediction</h3>
+                              <!--  tolgo un paragrafo e metto grassetto  -->
+                            <p>
+                                Implementation of machine learning (KNN, Decision Trees, Bagging, XGBoost)
+                                and deep learning (LSTM network) classification models to predict which families
+                                different proteins belong, starting from features available in the Protein Data Bank (PDB).
+                            <p>
+                            <p>
+                                Machine learning models were trained on a dataset including protein biophysical properties,
+                                while the deep learning model was trained using protein amino acids sequences.
+                            <p>
+                            <p>
+                              The LSTM model performed better than the best machine learning classification model (XGBoost),
+                               with an increase of F1-score from 0.66 to 0.75 on the test set.
+                             </p>
+                              <a href="https://github.com/MattiaPerrone123/Protein_Family_Prediction.git">View Code</a>
+                                  &nbsp&nbsp&nbsp&nbsp&nbsp
+                              <a href="https://drive.google.com/file/d/1hWEePcMfgyuSkxL_FLxX_q52ozoJGzfy/view?usp=share_link">View Report</a>
+                          </div>
+                          <!-- End .project-info -->
+                      </div>
+                      <!-- End .project -->
+
+
+
+
+
+                      <div class="project shadow-large">
+                          <div class="project-image">
+                             <img src="images/LE4_black_300x300.png" />
+                          </div>
+                          <!-- End .project-image -->
+                          <div class="project-info">
+                              <h3>Life Expectancy Prediction</h3>
+                              <p>
+                              Applied linear regression (Vanilla, Ridge, Lasso) and ensemble methods
+                              (Bagging, Random Forest, XGBoost) to predict the life expectancy of a
+                              country given its main health indexes. Data cleaning was initially performed
+                              to deal with outliers and to apply different strategies for handling missing values.
+                              <p>
+                              <p>
+                              The best ensemble model (XGBoost) allowed to reduce MSE up to 31% with respect to
+                              the best regression model (Ridge).
+                              </p>
+                              <a href=https://github.com/MattiaPerrone123/Life_Expectancy_Prediction.git>View Code</a>
+                                  &nbsp&nbsp&nbsp&nbsp&nbsp
+                              <a href=https://drive.google.com/file/d/1D7tdaqc_K4SDdazOaw5S1HocXtQQUxdo/view>View Slides</a>
+                          </div>
+                          <!-- End .project-info -->
+                      </div>
+                      <!-- End .project -->
+                  </div>
+              </div>
+          </div>
+          <!-- End #publications -->
+
+
+
+
+
 
     <div id="contact">
         <h2>Get in Touch</h2>
